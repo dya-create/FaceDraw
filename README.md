@@ -1,4 +1,3 @@
-# FaceDraw
 
 # Name:Diya Patel
 ## Project FaceDraw

@@ -4,12 +4,14 @@ import java.awt.Color;
 
 public class Face{
 
+    // variables needed for the application
     public int x ;
     public int y ;
     public int width ;
     public int height ;
     public String faceStatus = "neutral";
-    private Random myRand = new Random();
+    
+    private Random myRand = new Random(); // random generator
 
         // getters and setters
         public int getX(){return x;}
@@ -49,6 +51,7 @@ public class Face{
 
     }
 
+    // draw metthod draws smilling, frawing and neutral based on random values
     public void draw(Graphics g){
 
         // random width and height for face
@@ -107,15 +110,12 @@ public class Face{
     }
 
 
-
     @Override
-
     // to string that prints face dimensions
     public String toString(){
 
         return"Face{x=" + x +", y=" +y + ", width="+ width +", height=" + height+ ", status="  + faceStatus+ "}";
     }
-
-
+    
     }
 

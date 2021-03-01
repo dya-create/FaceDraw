@@ -1,6 +1,6 @@
 /* Diya Patel
 Object Oriented Programming
-Spring3 - FaceDraw
+Sprint 3 - FaceDraw
 */
 
 import javax.swing.*;
